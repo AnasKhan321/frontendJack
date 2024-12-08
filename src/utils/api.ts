@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://djay9v8s5uugf.cloudfront.net';
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 
 interface response {
